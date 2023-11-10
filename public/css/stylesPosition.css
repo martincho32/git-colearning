@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.left-block {
+    width: 200px;
+    height: 500px;
+}
+
+.blocks-container {
+    background-color: yellow;
+    width: 100vw;
+    height: 2000px;
+    position: relative;
+}
+
+.block-1 {
+    background-color: red;
+    width: 50px;
+    position: absolute;
+}
+
+.block-2 {
+    background-color: white;
+    width: 50px;
+    position: absolute;
+}
+
+.block-3 {
+    background-color: blue;
+    width: 50px;
+}
+
+
+
+@media (min-width: 576px){
+    /* Tablet */
+
+}
+
+@media (min-width: 992px){
+    /* Desktop */
+
+}
