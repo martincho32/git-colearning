@@ -25,6 +25,6 @@ app.get('/position', (req,res)=>{
     res.sendFile(__dirname + '/views/position.html');
 });
 
-app.get('/position123', (req,res)=>{
+app.get('/position123456', (req,res)=>{
     res.sendFile(__dirname + '/views/position.html');
 });
