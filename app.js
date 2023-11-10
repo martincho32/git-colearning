@@ -4,6 +4,7 @@ require("dotenv/config")
 app.use(express.static('public'));
 
 const PORT = process.env.PORT || 3000
+
 app.listen(PORT, ()=>{
     console.log('Servidor funcionando en puerto: ' + PORT);
 });
@@ -21,5 +22,9 @@ app.get('/register', (req,res)=>{
 });
 
 app.get('/position', (req,res)=>{
+    res.sendFile(__dirname + '/views/position.html');
+});
+
+app.get('/position123', (req,res)=>{
     res.sendFile(__dirname + '/views/position.html');
 });
